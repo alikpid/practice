@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 513px;
+}
+nav{
+    height: 61px;
+    background-color: #666666;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+.nav-bar div{
+    padding: 0 20px;
+}
+.nav-bar .nav-bar-item{
+    border-right: #b8b8b8 1px solid;
+}
+.nav-bar a{
+    font-size: 12px;
+    color: #b8b8b8;
+    white-space: nowrap;
+}
+.nav-bar a:hover{
+    color: #ff9900;
+}
+.nav-bar p{
+    font-size: 12px;
+}
+.header-social{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.soc-button{
+    background-color: #252525;
+    margin-right: 10px;
+    padding: 5px 7px;
+    border-radius: 100px;
+}
+.soc-button-last{
+    background-color: #252525;
+    padding: 5px 7px;
+    border-radius: 100px;
+}
+.soc-button:hover{
+    background-color: #ff9900;
+}
+.soc-button-last:hover{
+    background-color: #ff9900;
+}
+.top-border{
+    height: 8px;
+    background-color: #252525;
+    border-bottom: #303030 2px solid;
+}
+.header-main img{
+    margin: 0 auto;
+    display: block;
+    width: 960px;
+    height: 340px;
+    background-color: #333333;
+}
+.header-main{
+    padding: 20px 20px 0 20px;
+    background-color: #252525;
+}
+.logo-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.logo{
+    display: flex;
+    align-items: baseline;
+}
+.logo h3{
+    font-size: 36px;
+    color: #ffff;
+    font-weight: normal;
+    margin-right: 20px;
+}
+.logo h3:first-letter{
+    font-size: 46px;
+}
+.logo p{
+    color: #b8b8b8;
+    font-size: 12px;
+}
+.header-search input{
+    padding: 5px;
+    background-color: #363636;
+    color: #7f7f7f;
+    border: none;
+    outline: none;
+}
+.header-search input::placeholder{
+    font-size: 14px;
+    color: #7f7f7f;
+}
