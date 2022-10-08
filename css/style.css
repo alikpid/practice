@@ -105,13 +105,55 @@ nav{
     font-size: 12px;
 }
 .header-search input{
-    padding: 5px;
+    padding: 10px;
     background-color: #363636;
     color: #7f7f7f;
     border: none;
     outline: none;
+    float: left;
 }
 .header-search input::placeholder{
     font-size: 14px;
     color: #7f7f7f;
+    font-family: Georgia, sans-serif;
+}
+.header-search button{
+    font-family: Georgia, sans-serif;
+    font-size: 14px;
+    color: #ffff;
+    padding: 10px;
+    border: none;
+    background-color: #ff9900;
+    cursor: pointer;
+    float: left;
+}
+.bottom-border{
+    height: 15px;
+    background-color: #ff9900;
+}
+#homepage{
+    padding: 0 20px;
+}
+.breadcrumb {
+    padding: 20px 30px;
+    list-style: none;
+    background-color: #f0f0f0;
+    margin-top: 3px;
+    border-bottom: #999999 1px solid;
+}
+.breadcrumb p, li {
+    display: inline;
+    font-size: 14px;
+}
+.breadcrumb p{
+    color: #999999;
+    padding-right: 9px;
+}
+.breadcrumb li a{
+    color: #ff9900;
+}
+.breadcrumb p:after{
+    padding-left
+    : 9px;
+    content: "»";
 }
