@@ -131,17 +131,19 @@ nav{
     height: 15px;
     background-color: #ff9900;
 }
-#homepage{
+.homepage{
     padding: 0 20px;
+    background-color: #e1e1e1;
+    margin-top: -1px;
 }
 .breadcrumb {
     padding: 20px 30px;
     list-style: none;
     background-color: #f0f0f0;
     margin-top: 3px;
-    border-bottom: #999999 1px solid;
+    border-bottom: #e1e1e1 1px solid;
 }
-.breadcrumb p, li {
+.breadcrumb p, a {
     display: inline;
     font-size: 14px;
 }
@@ -149,11 +151,93 @@ nav{
     color: #999999;
     padding-right: 9px;
 }
-.breadcrumb li a{
+.breadcrumb a{
     color: #ff9900;
 }
 .breadcrumb p:after{
     padding-left
     : 9px;
     content: "»";
+}
+main .welcome{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #ffff;
+    border-bottom: #e1e1e1 1px solid;
+    padding-bottom: 50px;
+}
+main .welcome h1{
+    font-size: 66px;
+    font-weight: normal;
+    color: #dddddd;
+}
+main .welcome h1:first-letter{
+    font-size: 86px;
+}
+main .welcome h1 span{
+    font-size: 86px;
+}
+main .welcome p{
+    color: #989898;
+    font-size: 28px;
+    line-height: 40px;
+    font-style: italic;
+}
+main .intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #ffff;
+}
+main .intro .right-intro .intro-headline{
+    display: flex;
+    align-items: center;
+}
+main .intro h2{
+    font-weight: normal;
+    font-size: 22px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+main .intro .right-intro h3{
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 10px;
+}
+main .intro .right-intro h3 span{
+    font-weight: bold;
+}
+main .intro .right-intro p{
+    color: #999999;
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 13px;
+    padding-bottom: 60px;
+}
+main .intro .left-intro img{
+    display: block;
+    width: 110px;
+    height: 110px;
+    border: #e1e1e1 1px solid;
+}
+main .member-intro{
+    display: flex;
+}
+main .member-intro-text{
+    display: block;
+    padding: 10px 10px;
+}
+.member-intro-text h3{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #333333;
+    font-weight: normal;
+}
+.member-intro-text p{
+    font-size: 13px;
+    color: #999999;
+    line-height: 20px;
+}
+.member-intro .person-1{
+    margin-bottom: 70px;
 }
