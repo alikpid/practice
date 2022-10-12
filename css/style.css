@@ -186,8 +186,9 @@ main .welcome p{
 main .intro{
     display: flex;
     justify-content: space-between;
-    padding: 50px 20px;
+    padding: 50px 30px;
     background-color: #ffff;
+    border-bottom: #e1e1e1 1px solid;;
 }
 main .intro .right-intro .intro-headline{
     display: flex;
@@ -212,12 +213,15 @@ main .intro .right-intro p{
     padding-top: 10px;
     line-height: 20px;
     font-size: 13px;
+}
+main .intro .right-intro .intro-info{
     padding-bottom: 60px;
 }
 main .intro .left-intro img{
     display: block;
-    width: 110px;
-    height: 110px;
+    width: 120px;
+    height: 120px;
+    padding: 5px;
     border: #e1e1e1 1px solid;
 }
 main .member-intro{
@@ -239,5 +243,5 @@ main .member-intro-text{
     line-height: 20px;
 }
 .member-intro .person-1{
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
