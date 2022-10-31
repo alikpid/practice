@@ -245,3 +245,141 @@ main .member-intro-text{
 .member-intro .person-1{
     margin-bottom: 55px;
 }
+.latest-work{
+    background-color: white;
+    padding: 50px 30px;
+}
+.latest-work{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-work-info h2{
+    font-size: 22px;
+    font-weight: normal;
+    color: #666666;
+    margin-bottom: 24px;
+}
+.latest-work-info p{
+    font-size: 13px;
+    color: #999999;
+    line-height: 17px;
+}
+.latest-work img{
+    display: block;
+    height: 140px;
+    width: 210px;
+    background-size: cover;
+    margin-bottom: 24px;
+    box-shadow: rgba(0, 0, 0) 0 23px 10px -20px;
+}
+.latest-work-img p{
+    font-size: 13px;
+    color: #989898;
+    line-height: 17px;
+    margin-bottom: 18px;
+}
+.latest-work-img a{
+    color: #ff9900;
+}
+.twitter{
+    padding: 0 30px 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.twitter-bg{
+    padding: 0 20px;
+    background-color: #252525;
+}
+.twitter p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 25px;
+}
+.contacts{
+    background-color: #252525;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts .quick-links{
+    display: flex;
+    flex-direction: column;
+}
+.contacts .quick-links a{
+    padding-bottom: 6px;
+    padding-right: 140px;
+    border-bottom: #333333 1px solid;
+}
+.contacts .quick-links a:nth-child(n+3){
+    padding-top: 6px;
+}
+.contacts .blog-post h4, h5{
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.contacts .blog-post p{
+    margin-bottom: 7px;
+}
+.contacts .blog-post a{
+    float: right;
+}
+.contacts .newsletter form{
+    display: flex;
+    flex-direction: column;
+}
+.contacts .newsletter form input{
+    width: 225px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #333333;
+}
+.contacts .newsletter form input::placeholder{
+    font-size: 13px;
+}
+.contacts .newsletter form button{
+    width: 75px;
+    padding: 5px;
+    background-color: #333333;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #ff9900;
+    cursor: pointer;
+}
+.contacts h3{
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #666666;
+}
+.contacts h4{
+    font-size: 13px;
+    color: #868686;
+}
+.contacts h5{
+    font-size: 11px;
+    color: #868686;
+}
+.contacts p{
+    color: #868686;
+    font-size: 12px;
+    line-height: 17px;
+}
+.contacts a{
+    color: #ff9900;
+    font-size: 12px;
+}
+footer{
+    background-color: #000000;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color: #737373;
+}
