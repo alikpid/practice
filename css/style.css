@@ -154,9 +154,8 @@ nav{
 .breadcrumb a{
     color: #ff9900;
 }
-.breadcrumb p:after{
-    padding-left
-    : 9px;
+.breadcrumb p::after{
+    padding-left: 9px;
     content: "»";
 }
 main .welcome{
@@ -331,6 +330,7 @@ main .member-intro-text{
 }
 .contacts .newsletter form input{
     width: 225px;
+    color: #868686;
     padding: 5px 10px;
     border-radius: 5px;
     outline: none;
@@ -382,4 +382,5 @@ footer{
 }
 footer p{
     color: #737373;
+    font-size: 12px;
 }
